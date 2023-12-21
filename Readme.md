@@ -69,7 +69,9 @@ Na regressão logística, além do treinamento convencional, avaliamos a lineari
 
 ## 6. Avaliação dos Modelos
 
-Durante o processo de avaliação dos modelos, foram considerados diversos critérios para garantir sua eficácia e aplicabilidade prática. A capacidade de implantação em produção foi um aspecto central, assegurando que o modelo pudesse ser integrado eficientemente no ambiente operacional da PoD Bank. Além disso, métricas fundamentais, como o KS, o Gini e a ordenação do Score em 10 faixas na base de teste foram cuidadosamente analisadas. Essas métricas fornecem insights sobre a capacidade preditiva, a discriminação entre bons e maus pagadores, e a consistência da classificação em diferentes faixas de risco.
+Durante o processo de avaliação dos modelos, foram considerados diversos critérios para garantir sua eficácia e aplicabilidade prática. A capacidade de implantação em produção foi um aspecto central, assegurando que o modelo pudesse ser integrado eficientemente no ambiente operacional da PoD Bank. 
+
+Além disso, métricas fundamentais, como o KS, o Gini e a ordenação do Score em 10 faixas na base de teste foram cuidadosamente analisadas. Essas métricas fornecem insights sobre a capacidade preditiva, a discriminação entre bons e maus pagadores, e a consistência da classificação em diferentes faixas de risco.
 
 ## 7. Desenvolvimento dos Indicadores de Negócio
 
@@ -79,7 +81,9 @@ Esses indicadores não apenas servem como métricas de desempenho, mas também o
 
 ## 8. Resultados
 
-O modelo escolhido, LightGBM, se destaca pela ordenação eficaz das taxas de score, eficiência na identificação de clientes propensos a inadimplência e bom desempenho na métrica AUC (0.76). A consistência nas métricas sugere que o modelo não tem overfitting, garantindo robustez e generalização. O Modelo LightGBM permite uma taxa de aprovação eficiente de 80% para 10% de apetite de risco, capturando R$33.2 bi entre os R$70 bi disponíveis.
+O modelo escolhido, LightGBM, se destaca pela ordenação eficaz das taxas de score, eficiência na identificação de clientes propensos a inadimplência e bom desempenho na métrica AUC (0.76). 
+
+A consistência nas métricas sugere que o modelo não tem overfitting, garantindo robustez e generalização. O Modelo LightGBM permite uma taxa de aprovação eficiente de 80% para 10% de apetite de risco, capturando R$33.2 bi entre os R$70 bi disponíveis.
 
 <p align="center">
   <img src="04 - Imagens/Avaliacao - LightGBM.png">
