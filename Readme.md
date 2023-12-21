@@ -9,7 +9,9 @@
 
 ## 1. Entendimento do Negócio
 
-O desafio central é antever a capacidade de reembolso de empréstimos pelos clientes da PoD Bank, visando ampliar o acesso ao crédito para aqueles com histórico limitado ou inexistente. A empresa busca construir um modelo preditivo que, ao utilizar uma gama de fontes de dados, incluindo registros bancários e informações socioeconômicas, possa avaliar a probabilidade de inadimplência. Essa iniciativa é crucial para minimizar os riscos financeiros, mantendo um equilíbrio entre responsabilidade financeira e inclusão social.
+O desafio central é antever a capacidade de reembolso de empréstimos pelos clientes da PoD Bank, visando ampliar o acesso ao crédito para aqueles com histórico limitado ou inexistente. 
+
+A empresa busca construir um modelo preditivo que, ao utilizar uma gama de fontes de dados, incluindo registros bancários e informações socioeconômicas, possa avaliar a probabilidade de inadimplência. Essa iniciativa é crucial para minimizar os riscos financeiros, mantendo um equilíbrio entre responsabilidade financeira e inclusão social.
 
 [Kaggle Competition Link: PoD Academy - Análise de Crédito](https://www.kaggle.com/competitions/pod-academy-analise-de-credito-para-fintech/overview)
 
