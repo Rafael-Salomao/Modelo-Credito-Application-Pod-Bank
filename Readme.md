@@ -7,7 +7,7 @@
 - **Líder Técnico:** Diego Brum
 - **Desenvolvedores:** João, Diego Lucena, Vinicius
 
-## 1. Entendimento das Necessidades do Negócio
+## 1. Entendimento do Negócio
 
 O desafio central é antever a capacidade de reembolso de empréstimos pelos clientes da PoD Bank, visando ampliar o acesso ao crédito para aqueles com histórico limitado ou inexistente. A empresa busca construir um modelo preditivo que, ao utilizar uma gama de fontes de dados, incluindo registros bancários e informações socioeconômicas, possa avaliar a probabilidade de inadimplência. Essa iniciativa é crucial para minimizar os riscos financeiros, mantendo um equilíbrio entre responsabilidade financeira e inclusão social.
 
@@ -61,13 +61,7 @@ Na regressão logística, além do treinamento convencional, avaliamos a lineari
 
 ## 6. Avaliação dos Modelos
 
-### Critérios de Avaliação:
-
-A avaliação considerou capacidade de implantação, métricas (KS, Gini) e ordenação do Score em 10 faixas na base de teste.
-
-### Resultados da Avaliação:
-
-O Modelo LightGBM destacou-se, demonstrando consistência em KS (0.40), GINI (0.53) e AUC (0.76). Possibilitou uma taxa de aprovação eficiente de 80% para 10% de apetite de risco, capturando R$33.2 bi entre os R$70 bi disponíveis.
+Durante o processo de avaliação dos modelos, foram considerados diversos critérios para garantir sua eficácia e aplicabilidade prática. A capacidade de implantação em produção foi um aspecto central, assegurando que o modelo pudesse ser integrado eficientemente no ambiente operacional da PoD Bank. Além disso, métricas fundamentais, como o KS, o Gini e a ordenação do Score em 10 faixas na base de teste foram cuidadosamente analisadas. Essas métricas fornecem insights sobre a capacidade preditiva, a discriminação entre bons e maus pagadores, e a consistência da classificação em diferentes faixas de risco.
 
 ## 7. Desenvolvimento dos Indicadores de Negócio
 
