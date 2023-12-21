@@ -5,7 +5,7 @@
 - **Product Manager (PM):** Rafael Salomão
 - **Visual Analyst (VA):** Pedro Melo
 - **Líder Técnico:** Diego Brum
-- **Desenvolvedores:** João, Diego Lucena, Vinicius
+- **Desenvolvedores:** Vinicius Ranieri, Diego Lucena
 
 ## 1. Entendimento do Negócio
 
