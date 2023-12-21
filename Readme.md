@@ -15,6 +15,10 @@ O desafio central é antever a capacidade de reembolso de empréstimos pelos cli
 
 ## 2. Entendimento dos Dados
 
+<p align="center">
+  <img src="04 - Imagens/Modelo Entidade Relacionamento dos Dados.jpg">
+</p>
+
 Para enfrentar esse desafio, a PoD Bank reuniu dados disponíveis e os disponibilizou em formato CSV para treinamento e avaliação de modelos. Os principais conjuntos de dados incluem:
 
 - **application_train.csv/application_test.csv:** Principais dados de treino/teste sobre solicitações de empréstimo, com identificação única (SK_ID_CURR) e variável TARGET indicando a inadimplência (0: pago, 1: não pago).
@@ -45,6 +49,10 @@ Excluímos variáveis com mais de 70% de nulos e substituímos nulos pela média
 
 Em resumo, desenvolvemos cinco modelos com equações distintas para encontrar o melhor cenário. A arquitetura envolveu a ingestão contínua e enriquecimento dos dados, garantindo modelos sempre atualizados e adaptáveis. Manipulamos variáveis explicativas estruturadamente, realizamos amostragem representativa e avaliamos modelos considerando KS, GINI e AUC.
 
+<p align="center">
+  <img src="04 - Imagens/Arquitetura Modelo Credito.PNG">
+</p>
+
 ## 5. Desenvolvimento dos Modelos
 
 ### Modelos Desenvolvidos:
@@ -72,6 +80,10 @@ Esses indicadores não apenas servem como métricas de desempenho, mas também o
 ## 8. Resultados
 
 O modelo escolhido, LightGBM, se destaca pela ordenação eficaz das taxas de score, eficiência na identificação de clientes propensos a inadimplência e bom desempenho na métrica AUC (0.76). A consistência nas métricas sugere que o modelo não tem overfitting, garantindo robustez e generalização. O Modelo LightGBM permite uma taxa de aprovação eficiente de 80% para 10% de apetite de risco, capturando R$33.2 bi entre os R$70 bi disponíveis.
+
+<p align="center">
+  <img src="04 - Imagens/Avaliacao - LightGBM.png">
+</p>
 
 ## 9. Implantação
 
