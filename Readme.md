@@ -49,13 +49,13 @@ Excluímos variáveis com mais de 70% de nulos e substituímos nulos pela média
 
 ## 4. Desenho da Arquitetura
 
-Em resumo, desenvolvemos cinco modelos com equações distintas para encontrar o melhor cenário. A arquitetura envolveu a ingestão contínua e enriquecimento dos dados, garantindo modelos sempre atualizados e adaptáveis. Manipulamos variáveis explicativas estruturadamente, realizamos amostragem representativa e avaliamos modelos considerando KS, GINI e AUC.
-
 <p align="center">
   <img src="04 - Imagens/Arquitetura Modelo Credito.PNG">
 </p>
 
 ## 5. Desenvolvimento dos Modelos
+
+Em resumo, desenvolvemos cinco modelos com equações distintas para encontrar o melhor cenário. A arquitetura envolveu a ingestão contínua e enriquecimento dos dados, garantindo modelos sempre atualizados e adaptáveis. Manipulamos variáveis explicativas estruturadamente, realizamos amostragem representativa e avaliamos modelos considerando KS, GINI e AUC.
 
 ### Modelos Desenvolvidos:
 
