@@ -1,12 +1,5 @@
 # Análise de Crédito - Application - POD Bank
 
-## Squad 09
-
-- **Product Manager (PM):** Rafael Salomão
-- **Visual Analyst (VA):** Pedro Melo
-- **Líder Técnico:** Diego Brum
-- **Desenvolvedores:** Vinicius Ranieri, Diego Lucena
-
 ## 1. Entendimento do Negócio
 
 O desafio central é antever a capacidade de reembolso de empréstimos pelos clientes da PoD Bank, visando ampliar o acesso ao crédito para aqueles com histórico limitado ou inexistente. 
